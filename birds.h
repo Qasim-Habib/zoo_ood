@@ -9,7 +9,7 @@ class Birds: public Animal
 {
 public:
     Birds(const String& name);
-    virtual void printAdditionAttributes() = 0;
+    virtual void printAdditionAttributes();
     //virtual const String& getSpecies()const=0;
     virtual const unsigned int getTypicalHeight()const = 0;
     virtual const unsigned int getWingSpan()const = 0;
