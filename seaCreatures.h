@@ -10,7 +10,7 @@ class SeaCreatuers:virtual public Animal
 {
 public:
     SeaCreatuers(const String& name);
-    virtual void printAdditionAttributes()=0;
+    virtual void printAdditionAttributes();
     virtual const unsigned int getLowestDepth()const=0;
     virtual ~SeaCreatuers();
 
