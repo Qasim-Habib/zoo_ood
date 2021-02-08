@@ -56,7 +56,7 @@ bool Whale::operator==(const Whale &w1) {
 
     iter=contList1.begin();
 
-    while(it != contList.end() && iter != contList1.begin())
+    while(it != contList.end() && iter != contList1.end())
     {
         if(*it != *iter)
             return false;
